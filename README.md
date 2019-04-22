@@ -51,6 +51,8 @@ all missing values indicated with a ‘?’ character are marked with a NaN valu
 
 a new column is then created that contains the remainder of the sub-metering, using the calculation from the previous section.
 
+![add_column](https://user-images.githubusercontent.com/25223180/56531586-edfcfa80-6571-11e9-92b7-e00db22cb73a.PNG)
+
 We can now save the cleaned-up version of the dataset to a new ﬁle; in this case we will just change the ﬁle extension to .csv and save the dataset as household power consumption.csv.
 
 ![saveandload_updteddataset](https://user-images.githubusercontent.com/25223180/56531464-b8581180-6571-11e9-81ab-69dece914cda.PNG)
