@@ -41,7 +41,9 @@ the data with a few customizations:
    (parse dates=‘datetime’:[0,1])
 6) Specify that we would like our new datetime column to be the index for the DataFrame (index col=[’datetime’]).
 
-Putting all of this together, the data can be loaded and summarize the loaded shape and ﬁrst few rows.
+Putting all of this together, the data can be loaded and summarize the loaded shape.
+
+![Load_Data_SmartMeter](https://user-images.githubusercontent.com/25223180/56530953-db35f600-6570-11e9-8427-c8732df05575.PNG)
 
 
 
