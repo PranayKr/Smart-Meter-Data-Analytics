@@ -41,9 +41,19 @@ the data with a few customizations:
    (parse dates=‘datetime’:[0,1])
 6) Specify that we would like our new datetime column to be the index for the DataFrame (index col=[’datetime’]).
 
-Putting all of this together, the data can be loaded and summarize the loaded shape.
+Putting all of this together, the data can be loaded and summarize the loaded shape and first few rows.
 
 ![Load_Data_SmartMeter](https://user-images.githubusercontent.com/25223180/56530953-db35f600-6570-11e9-8427-c8732df05575.PNG)
+
+all missing values indicated with a ‘?’ character are marked with a NaN value, which is a ﬂoat. This will allow us to work with the data as one array of ﬂoating point values rather than mixed types, which is less eﬃcient.
+
+a new column is then created that contains the remainder of the sub-metering, using the calculation from the previous section.
+
+We can now save the cleaned-up version of the dataset to a new ﬁle; in this case we will just change the ﬁle extension to .csv and save the dataset as household power consumption.csv.
+
+
+
+
 
 
 
