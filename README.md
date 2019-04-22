@@ -7,13 +7,14 @@ consumption for a single household over four years. The data was collected betwe
 power consumption within the household were collected every minute. It is a multivariate series comprised of seven variables (besides 
 the date and time); they are:
 
-   global active power: The total active power consumed by the household (kilowatts).
-   global reactive power: The total reactive power consumed by the household (kilowatts).
-   voltage: Average voltage (volts).
-   global intensity: Average current intensity (amps).
-   sub metering 1: Active energy for kitchen (watt-hours of active energy).
-   sub metering 2: Active energy for laundry (watt-hours of active energy).
-   sub metering 3: Active energy for climate control systems (watt-hours of active energy).
+ global active power: The total active power consumed by the household (kilowatts).
+ global reactive power: The total reactive power consumed by the household (kilowatts).
+ voltage: Average voltage (volts).
+ global intensity: Average current intensity (amps).
+ sub metering 1: Active energy for kitchen (watt-hours of active energy).
+ sub metering 2: Active energy for laundry (watt-hours of active energy).
+ sub metering 3: Active energy for climate control systems (watt-hours of active energy).
+
 Active and reactive energy refer to the technical details of alternative current. In general terms, the active energy is the real power 
 consumed by the household, whereas the reactive energy is the unused power in the lines. We can see that the dataset provides the active 
 power as well as some division of the active power by main circuit in the house, speciﬁcally the kitchen, laundry, and climate control. 
