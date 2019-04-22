@@ -47,9 +47,16 @@ Putting all of this together, the data can be loaded and summarize the loaded sh
 
 all missing values indicated with a ‘?’ character are marked with a NaN value, which is a ﬂoat. This will allow us to work with the data as one array of ﬂoating point values rather than mixed types, which is less eﬃcient.
 
+![missing_values](https://user-images.githubusercontent.com/25223180/56531453-b2fac700-6571-11e9-930a-b63903da25d3.PNG)
+
 a new column is then created that contains the remainder of the sub-metering, using the calculation from the previous section.
 
 We can now save the cleaned-up version of the dataset to a new ﬁle; in this case we will just change the ﬁle extension to .csv and save the dataset as household power consumption.csv.
+
+![saveandload_updteddataset](https://user-images.githubusercontent.com/25223180/56531464-b8581180-6571-11e9-81ab-69dece914cda.PNG)
+
+
+
 
 
 
