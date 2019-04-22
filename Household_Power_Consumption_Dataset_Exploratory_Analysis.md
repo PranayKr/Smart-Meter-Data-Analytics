@@ -21,7 +21,7 @@ A single image is created with eight subplots, one for each variable.
 # Global Active Power Usage across the years in the Dataset
 (The ﬁrst year, 2006, has less than one month of data, so will remove it from the plot. )
 
-
+![activepower_years](https://user-images.githubusercontent.com/25223180/56534780-f6f0ca80-6577-11e9-864d-fa212cd0eb60.PNG)
 
 A single image is created with four line plots, one for each full year (or mostly full years) of data in the dataset. 
 # Inferences Drawn
