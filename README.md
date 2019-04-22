@@ -83,13 +83,13 @@ to forecast. Some examples include:
 monthly data, and perhaps to a degree for weekly data. More general features may include:  Indicating the season, which may lead to the 
 type or amount environmental control systems being used.
 # Modeling Methods
-1. Naive Methods
+1. Naive Methods:
    Naive methods would include methods that make very simple, but often very eﬀective assumptions. Some examples include:
    1) Tomorrow will be the same as today.
    2) Tomorrow will be the same as this day last year.
    3) Tomorrow will be an average of the last few days.
 
-2. Classical Linear Methods
+2. Classical Linear Methods:
    Classical linear methods include techniques are very eﬀective for univariate time series forecasting. 
    Two important examples include:
    1) SARIMA.
@@ -97,7 +97,7 @@ type or amount environmental control systems being used.
    They would require that the additional variables be discarded and the parameters of the model be conﬁgured or tuned to the speciﬁc
    framing of the dataset. Concerns related to adjusting the data for daily and seasonal structures can also be supported directly
       
-3. Machine Learning Methods
+3. Machine Learning Methods:
    Machine learning methods require that the problem be framed as a supervised learning problem. This would require that lag 
    observations for a series be framed as input features, discarding the temporal relationship in the data. A suite of nonlinear and 
    ensemble methods could be explored, including:
@@ -111,7 +111,7 @@ type or amount environmental control systems being used.
    agnostic to large numbers of variables and may aid in teasing out whether the additional variables can be harnessed and add value to 
    predictive models.
 
-4. Deep Learning Methods
+4. Deep Learning Methods:
    Generally, neural networks have not proven very eﬀective at autoregression type problems. Nevertheless, techniques such as 
    convolutional neural networks are able to automatically learn complex features from raw data, including one-dimensional signal data. 
    And recurrent neural networks, such as the long short-term memory network, are capable of directly learning across multiple parallel 
