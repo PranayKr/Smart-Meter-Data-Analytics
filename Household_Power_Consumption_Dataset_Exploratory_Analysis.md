@@ -18,5 +18,17 @@ A single image is created with eight subplots, one for each variable.
    may match up with a speciﬁc period, such as weekends.
 
 
+# Global Active Power Usage across the years in the Dataset
+(The ﬁrst year, 2006, has less than one month of data, so will remove it from the plot. )
 
+
+
+A single image is created with four line plots, one for each full year (or mostly full years) of data in the dataset. 
+# Inferences Drawn
+1) Some common gross patterns can be seen across the years, such as around Feb-Mar and around Aug-Sept where we see a marked decrease in 
+   consumption.
+2) A downward trend is seen over the summer months (middle of the year in the northern hemisphere) and perhaps more 
+   consumption in the winter months towards the edges of the plots. 
+3) These may show an annual seasonal pattern in consumption. 
+4) A few patches of missing data can be seen in at least the ﬁrst, third, and fourth plots.
 
