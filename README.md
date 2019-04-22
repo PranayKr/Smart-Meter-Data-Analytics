@@ -80,8 +80,9 @@ to forecast. Some examples include:
 1) Indicating the time of day, to account for the likelihood of people being home or not.
 2) Indicating whether a day is a weekday or weekend.
 3) Indicating whether a day is a North American public holiday or not. These factors may be signiﬁcantly less important for forecasting 
-monthly data, and perhaps to a degree for weekly data. More general features may include:  Indicating the season, which may lead to the 
-type or amount environmental control systems being used.
+monthly data, and perhaps to a degree for weekly data. 
+More general features may include: 
+4) Indicating the season, which may lead to the type or amount environmental control systems being used.
 # Modeling Methods
 1. Naive Methods:
    Naive methods would include methods that make very simple, but often very eﬀective assumptions. Some examples include:
