@@ -120,7 +120,7 @@ More general features may include:
    classiﬁcation tasks. It is possible that these methods may be able to harness the large volume of minute-based data and multiple 
    input variables.
 
-# Further Scope
+# Further Scope (Future Work)
 
 # References
 
