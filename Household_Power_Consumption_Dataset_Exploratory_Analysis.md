@@ -2,7 +2,9 @@
 # Patterns in Observations Over Time
 The data is a multivariate time series and the best way to understand a time series is to create line plots. We can start oﬀ by creating a 
 separate line plot for each of the eight variables
+
 ![lineplot_eachvar](https://user-images.githubusercontent.com/25223180/56534139-afb60a00-6576-11e9-9a8c-caa14ba86322.PNG)
+
 A single image is created with eight subplots, one for each variable. 
 # Inferences Drawn
 1) This gives us a really high level of the four years of one minute observations. 
