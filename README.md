@@ -29,16 +29,19 @@ https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+cons
 The data columns are separated by semicolons (‘;’). The data is reported to have one row for each day in the time period. The data does 
 have missing values marked as '?' in the dataset
 
-We can start-oﬀ by loading the data ﬁle as a Pandas DataFrame and summarize the loaded data. We can use the read csv() function to load 
-the data. It is easy to load the data with this function, but a little tricky to load it correctly. Speciﬁcally, we need to do a few 
-custom things:
- Specify the separate between columns as a semicolon (sep=‘;’)
- Specify that line 0 has the names for the columns (header=0)
- Specify that we have lots of RAM to avoid a warning that we are loading the data as an array of objects instead of an array of numbers, because of the ‘?’ values for missing data (low memory=False).
- Specify that it is okay for Pandas to try to infer the date-time format when parsing dates, which is way faster (infer datetime format=True)
- Specify that we would like to parse the date and time columns together as a new column called ’datetime’ (parse dates=‘datetime’:[0,1])
- Specify that we would like our new datetime column to be the index for the DataFrame (index col=[’datetime’]).
-Putting all of this together, we can now load the data and summarize the loaded shape and ﬁrst few rows.
+The Data File can be loaded as a Pandas DataFrame and summarize the loaded data. We can use the read csv() function to load 
+the data with a few customizations:
+1) Specify the separate between columns as a semicolon (sep=‘;’)
+2) Specify that line 0 has the names for the columns (header=0)
+3) Specify that we have lots of RAM to avoid a warning that we are loading the data as an array of objects instead of an array of 
+   numbers, because of the ‘?’ values for missing data (low memory=False).
+4) Specify that it is okay for Pandas to try to infer the date-time format when parsing dates, which is way faster 
+   (infer datetime format=True)
+5) Specify that we would like to parse the date and time columns together as a new column called ’datetime’ 
+   (parse dates=‘datetime’:[0,1])
+6) Specify that we would like our new datetime column to be the index for the DataFrame (index col=[’datetime’]).
+
+Putting all of this together, the data can be loaded and summarize the loaded shape and ﬁrst few rows.
 
 
 
