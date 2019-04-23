@@ -58,4 +58,14 @@ A single image is created with thirty-one line plots, one for each month of  May
 4) Some strong overnight consumption is observed on some days, that in a northern hemisphere November may match up with a heating system 
    being used. 
 5) Time of year, specically the season and the weather that it brings, will be an important factor in modeling this data
+# Time Series Data Distributions
+Distribution of data across all the variables can be investigated using Histogram plots 
+# Histogram generated for each variable in time-series
+
+A single plot is generated with separate histogram for each of the 8 variables 
+# Inferences Drawn
+1) Active and Reactive power, Intensity, as well as the Sub-metered Power are all skewed distributions down towards small watt-hour or 
+   kilowatt values.
+2) Distribution of voltage data is strongly Gaussian.
+3) The distribution of active power appears to be bi-modal, meaning it looks like it has two mean groups of observations.
 
