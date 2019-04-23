@@ -62,6 +62,8 @@ A single image is created with thirty-one line plots, one for each month of  May
 Distribution of data across all the variables can be investigated using Histogram plots 
 # Histogram generated for each variable in time-series
 
+![hsitogram_plot_eachvariable](https://user-images.githubusercontent.com/25223180/56573346-7e712480-65de-11e9-8c99-7860389de088.PNG)
+
 A single plot is generated with separate histogram for each of the 8 variables 
 # Inferences Drawn
 1) Active and Reactive power, Intensity, as well as the Sub-metered Power are all skewed distributions down towards small watt-hour or 
@@ -69,6 +71,8 @@ A single plot is generated with separate histogram for each of the 8 variables
 2) Distribution of voltage data is strongly Gaussian.
 3) The distribution of active power appears to be bi-modal, meaning it looks like it has two mean groups of observations.
 # The distribution of active power consumption for the four full years of data using Histograms
+
+![hsitogram_plot_eachyear](https://user-images.githubusercontent.com/25223180/56573348-80d37e80-65de-11e9-96e2-4ab0ccf18c8b.PNG)
 
 A single plot with 4 figures is created , one for each year between 2007 and 2010.
 # Inferences Drawn
@@ -79,6 +83,8 @@ A single plot with 4 figures is created , one for each year between 2007 and 201
 5) These groups or clusters for usage on a day or hour may be helpful in developing a predictive model.
 6) It is possible that the identied groups may vary over the seasons of the year.
 # The distribution for active power for each month in year 2009 using Histograms
+
+![hsitogram_plot_2009months](https://user-images.githubusercontent.com/25223180/56573352-83ce6f00-65de-11e9-8d57-4d26966d11a0.PNG)
 
 12 plots are created , one for each month of 2009.
 # Inferences Drawn
