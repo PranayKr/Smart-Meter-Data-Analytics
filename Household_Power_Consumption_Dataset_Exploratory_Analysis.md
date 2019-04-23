@@ -52,5 +52,10 @@ A single image is created with thirty line plots, one for each month of  Novembe
 
 A single image is created with thirty-one line plots, one for each month of  May 2009
 # Inferences Drawn
-
+1) There is common trend of energy consumption across the days.
+2) For many days consumption starts early morning, around 6-7AM. 
+3) Some days show a drop in consumption in the middle of the day, which might make sense if most occupants are out of the house. 
+4) Some strong overnight consumption is observed on some days, that in a northern hemisphere November may match up with a heating system 
+   being used. 
+5) Time of year, specically the season and the weather that it brings, will be an important factor in modeling this data
 
