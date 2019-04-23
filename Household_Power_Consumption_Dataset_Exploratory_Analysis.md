@@ -43,5 +43,9 @@ A single image is created with twelve line plots, one for each month of 2009
 2) There are stretches of days with very minimal consumption, such as in August and in April. These may represent 
    vacation periods where the home was unoccupied and where power consumption was minimal.
 # Global Active Power Usage for each day of the months of November and May of the year 2009
+A single image is created with thirty line plots, one for each month of  November 2009
+
+A single image is created with thirty-one line plots, one for each month of  May 2009
+# Inferences Drawn
 
 
