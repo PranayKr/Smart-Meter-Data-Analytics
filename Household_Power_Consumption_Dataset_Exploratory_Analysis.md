@@ -35,6 +35,7 @@ A single image is created with four line plots, one for each full year (or mostl
 To know the daily and weekly patterns of pwer usage per month graph of energy consumption is plotted
 ![activepower-2009months_1](https://user-images.githubusercontent.com/25223180/56569650-05220380-65d7-11e9-8b75-235b555d9d01.PNG)
 ![activepower-2009months_2](https://user-images.githubusercontent.com/25223180/56569658-094e2100-65d7-11e9-949a-63faeab0a89c.PNG)
+
 A single image is created with twelve line plots, one for each month of 2009
 # Inferences Drawn
 1) The sign-wave of power consumption of the days within each month can be observed. This is understood as some kind of daily 
