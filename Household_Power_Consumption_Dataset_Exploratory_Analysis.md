@@ -31,4 +31,15 @@ A single image is created with four line plots, one for each full year (or mostl
    consumption in the winter months towards the edges of the plots. 
 3) These may show an annual seasonal pattern in consumption. 
 4) A few patches of missing data can be seen in at least the ﬁrst, third, and fourth plots.
+# Global Active Power Usage for each month of 2009
+To know the daily and weekly patterns of pwer usage per month graph of energy consumption is plotted
+
+A single image is created with twelve line plots, one for each month of 2009
+# Inferences Drawn
+1) The sign-wave of power consumption of the days within each month can be observed. This is understood as some kind of daily 
+   pattern in power consumption can be expected daily.
+2) There are stretches of days with very minimal consumption, such as in August and in April. These may represent 
+   vacation periods where the home was unoccupied and where power consumption was minimal.
+
+
 
