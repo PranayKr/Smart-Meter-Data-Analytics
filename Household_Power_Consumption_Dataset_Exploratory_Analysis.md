@@ -68,4 +68,22 @@ A single plot is generated with separate histogram for each of the 8 variables
    kilowatt values.
 2) Distribution of voltage data is strongly Gaussian.
 3) The distribution of active power appears to be bi-modal, meaning it looks like it has two mean groups of observations.
+# The distribution of active power consumption for the four full years of data using Histograms
 
+A single plot with 4 figures is created , one for each year between 2007 and 2010.
+# Inferences Drawn
+1) The distribution of active power consumption across those years looks very similar
+2) The distribution is bimodal with one peak around 0.3 KW and perhaps another around 1.3 KW.
+3) There is a long tail on the distribution to higher kilowatt values.
+4) It might open the door to notions of discretizing the data and separating it into peak1, peak 2 or long tail.
+5) These groups or clusters for usage on a day or hour may be helpful in developing a predictive model.
+6) It is possible that the identied groups may vary over the seasons of the year.
+# The distribution for active power for each month in year 2009
+
+12 plots are created , one for each month of 2009.
+# Inferences Drawn
+1) Generally the same data distribution is observed for each month.
+2) The axes for the plots appear to align (given the similar scales), and the peaks are shifted down in the warmer 
+   northern hemisphere months and shifted up for the colder months.
+3) A thicker or more prominent tail toward larger kilowatt values for the cooler months of December through to March is also observed.
+   
