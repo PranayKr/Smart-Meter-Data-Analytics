@@ -78,7 +78,7 @@ A single plot with 4 figures is created , one for each year between 2007 and 201
 4) It might open the door to notions of discretizing the data and separating it into peak1, peak 2 or long tail.
 5) These groups or clusters for usage on a day or hour may be helpful in developing a predictive model.
 6) It is possible that the identied groups may vary over the seasons of the year.
-# The distribution for active power for each month in year 2009
+# The distribution for active power for each month in year 2009 using Histograms
 
 12 plots are created , one for each month of 2009.
 # Inferences Drawn
