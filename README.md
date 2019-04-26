@@ -22,10 +22,6 @@ active energy to watt-hours then subtracting the other sub-metered active energy
 
 #### remainder = (global act pwr×1000 60)−(sub met 1 + sub met 2 + sub met 3) 
 
-The dataset is described and has been made freely available on the UCI Machine Learning repository1. The dataset can be downloaded as a 
-single 20 megabyte zip ﬁle. A direct download link is provided blow:
-https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption
-
 The data columns are separated by semicolons (‘;’). The data is reported to have one row for each day in the time period. The data does 
 have missing values marked as '?' in the dataset
 
@@ -92,21 +88,16 @@ More general features may include:
 
 2. Classical Linear Methods:
    Classical linear methods include techniques are very eﬀective for univariate time series forecasting. 
-   Two important examples include:
-   1) SARIMA.
-   2) ETS (triple exponential smoothing).
+   For example:
+   1) SARIMA (ARIMA Autoregression model)
+   
    They would require that the additional variables be discarded and the parameters of the model be conﬁgured or tuned to the speciﬁc
    framing of the dataset. Concerns related to adjusting the data for daily and seasonal structures can also be supported directly
       
 3. Machine Learning Methods:
    Machine learning methods require that the problem be framed as a supervised learning problem. This would require that lag 
-   observations for a series be framed as input features, discarding the temporal relationship in the data. A suite of nonlinear and 
-   ensemble methods could be explored, including:
-   1) k-Nearest Neighbors.
-   2) Support Vector Machines.
-   3) Decision Trees.
-   4) Random Forest.
-   5) Gradient Boosting Machines.
+   observations for a series be framed as input features, discarding the temporal relationship in the data. 
+   
    Careful attention is required to ensure that the ﬁtting and evaluation of these models preserved the temporal structure in the data. 
    This is important so that the method is not able to cheat by harnessing observations from the future. These methods are often 
    agnostic to large numbers of variables and may aid in teasing out whether the additional variables can be harnessed and add value to 
